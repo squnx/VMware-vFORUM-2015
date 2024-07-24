@@ -1,0 +1,812 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/** Home Page Center Display */
+
+.community-central-heading h3
+{
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    line-height: 30px;
+    margin: 0;
+    padding: 4px 0 6px 0px !important;
+}
+
+
+
+/** Home Page SubCommunity  */
+#community-nav-1001 ul {
+    padding : 0px;
+}
+
+#community-nav-1001 .jive-widget-body ul {
+    padding-top: 0 !important;
+}
+
+
+#community-nav-1001 ul li {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#community-nav-1001 .jive-icon-med {
+    margin: 0 !important;
+    width: 0 !important;
+   background-image: url("../images/vmware-icon-sprites-med.png");
+}
+.jive-icon-space {
+    background-position: -80px -912px !important;
+}
+
+#community-nav-1001 .jive-widget-body ul {
+    padding-top: 0 !important;
+}
+
+
+#community-nav-1001 ul li, .jive-sidebar .jive-sidebar-body-subcommunities ul li , .v-widget-comm-nav .j-icon-list li {
+    border-bottom: 1px solid #CCCCCC!important;
+}
+
+.j-icon-list li
+{
+    padding-bottom: 4px!important;
+    padding-top: 4px!important;
+}
+
+#community-nav-1001 .jive-icon-list li span.jive-icon-sml {
+    top: 7px !important;
+}
+#community-nav-1001 .jive-icon-space {
+    background-image: url("/themes/custom/images/comm-nav-arrow.png");
+    background-position: 0 3px !important;
+	margin-left: 7px!important;
+}
+#community-nav-1001 .vm-product-category .jive-icon-space{
+	background: none!important;
+}
+#community-nav-1001 .jive-icon-list li span.jive-icon-med, .jive-icon-list li span.jive-icon-sml {
+    left: 0;
+}
+
+.nav-parent li
+{
+   padding-left: 3px !important;
+}
+
+.nav-parent .j-icon-list-subspaces li
+{
+   padding-left: 14px !important;
+   margin-left:5px!important;
+}
+
+#community-nav-1001 .j-icon-list-spaces
+{
+   padding-left:0px !important;
+}
+
+.nav-parent .vm-product-category
+{
+	padding-left: 0px !important;
+}
+
+.nav-parent .j-icon-list-subspaces .vm-product-category
+{
+   padding-left: 6px !important;
+   margin-left: 0px!important;
+}
+.nav-parent .vm-product-category > a
+{
+	color: #444444;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+.nav-parent .j-icon-list-subspaces .vm-product-category > a
+{
+	color: #555555;
+}	
+
+.j-incoming-links {
+    margin-bottom: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.j-incoming-links.content > *:last-child
+{
+	margin-bottom: 14px;
+}
+
+
+/** Start A Disscussion */
+.start-discussion-out, .start-discussion-in {
+    background: url("/themes/custom/images/start-discussion.png") no-repeat scroll 0 0 transparent;
+}
+.start-discussion-out, .start-discussion-in {
+    display: block;
+    height: 36px;
+    margin-bottom: 14px!important;
+    width: 220px;
+}
+.start-discussion-out span, .start-discussion-in span {
+    cursor: pointer;
+    display: block;
+    height: 36px;
+    width: 220px;
+}
+
+.start-discussion-login
+{
+	background: url("/themes/custom/images/start-discussion.png") no-repeat scroll 0 -36px transparent !important;
+}
+
+
+/** Top Members Widget */
+ul.ul.jive-sidebar-topmembers
+{
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+
+}
+ul.jive-sidebar-topmembers span
+{
+   margin-top: 1px !important;
+	 float: none!important;
+}
+
+ul.jive-sidebar-topmembers span.j-status-levels
+{
+   top: 1px;
+}
+
+ul.jive-sidebar-topmembers span.pointsin {
+    display: block;
+    font-size: 10px;
+    padding: 0 0 3px 0px;
+}
+ul.jive-sidebar-topmembers li a.jive-username-link {
+    display: inline-block;
+    padding: 0 2px 1px 0px;
+}
+ul.jive-sidebar-topmembers span img {
+    position: relative;
+}
+.j-people-list span.j-status-levels
+{
+   position: relative !important;
+}
+
+/** Recent Content Widget */
+.jive-table-recentcontent table thead
+{
+     display: table-row-group !important;
+}
+.jive-table-recentcontent table thead th
+{
+     font-weight: bold;
+}
+.jive-table-recentcontent table thead th.jive-table-head-author
+{
+    text-align: center; 
+}
+
+.jive-table-recentcontent table tbody td.jive-table-cell-author
+{
+    padding: 0 1px 0 0 !important;
+}
+.jive-table-recentcontent table tbody td.jive-table-cell-author,.jive-table-toplikedcontent table tbody td.jive-table-cell-author
+{
+	text-align: left!important;
+}
+
+.jive-table-recentcontent table thead th.jive-table-head-author, .jive-table-taggables table thead th.jive-table-head-author, .jive-table-toplikedcontent table thead th.jive-table-head-author
+{
+	text-align: left!important;
+}
+
+.j-content-extras .j-sidebar , .j-content-extras .jive-sidebar
+{
+   margin-bottom:14px!important;
+}
+
+.jive-body-content-blogs .vmware-blog-editorpicks 
+{
+   margin-bottom:14px!important;
+}
+
+.jive-box-controls.jive-box-footer {
+    margin-top: 10px;
+}
+
+
+.jive-box-legend
+{
+   margin-bottom:14px!important;
+}
+
+/** For Action Box Place Content Page Override default */
+/** Commented for new theme 
+.jive-body-content .j-content-extras .j-box-actions .top , .j-body-place .jive-body-sidebarcol-container .j-content-extras .j-box-actions .top , .j-contained-tabs-profile .j-column-wrap-s .j-box-actions  .top   {
+    background: url("../images/blu-top-left.gif") no-repeat scroll left bottom transparent;
+    padding: 0;
+}
+
+.jive-body-content .j-content-extras .j-box-actions .top header , .j-body-place .jive-body-sidebarcol-container .j-content-extras .j-box-actions .top header  ,.j-contained-tabs-profile .j-column-wrap-s .j-box-actions  .top header   {
+    background: url("../images/blu-top-right.gif") no-repeat scroll right bottom transparent;
+    height: 39px;
+    margin-left: 8px;
+}
+
+.jive-body-content .j-content-extras .j-box-actions .middle , .j-body-place .jive-body-sidebarcol-container .j-content-extras .j-box-actions .middle , .j-contained-tabs-profile .j-column-wrap-s .j-box-actions  .middle  {
+    background: url("../images/blu-left.gif") repeat-y scroll left top transparent;
+    clear: both;
+    padding-left: 1px;
+}
+
+.jive-body-content .j-content-extras .j-box-actions .middle .j-box-body ,  .j-body-place .jive-body-sidebarcol-container .j-content-extras .j-box-actions .middle .j-box-body  , .j-contained-tabs-profile .j-column-wrap-s .j-box-actions  .middle .j-box-body   {
+    background: url("../images/blu-right.gif") repeat-y scroll right top transparent;
+    margin-left: 2px;
+}
+
+.jive-body-content .j-content-extras .j-box-actions .bottom ,  .j-body-place .jive-body-sidebarcol-container .j-content-extras .j-box-actions .bottom   , .j-contained-tabs-profile .j-column-wrap-s .j-box-actions .bottom {
+    background: url("../images/blu-bottom-left.gif") no-repeat scroll left top transparent;
+}
+
+.jive-body-content .j-content-extras .j-box-actions .bottom .bottom-right ,  .j-body-place .jive-body-sidebarcol-container .j-content-extras .j-box-actions .bottom .bottom-right  , .j-contained-tabs-profile .j-column-wrap-s .j-box-actions   .bottom .bottom-right  {
+    background: url("../images/blu-bottom-right.gif") no-repeat scroll right top transparent;
+    height: 10px;
+    margin-left: 8px;
+    position: relative;
+}
+*/
+/** Thread Info Box in Discussion Page */
+.jive-thread-info 
+{
+
+background: none repeat scroll 0 0 #ffffff !important;
+border: 1px solid gray !important;
+box-shadow: 0 1px 1px gray !important;
+color: black !important;
+
+}
+
+.jive-thread-info  .font-color-meta
+{
+color: black  !important;
+}
+
+/** Blog Page Styles */
+#blog-nav-recent-posts .j-simple-list
+{   
+   padding: 6px 2px 2px 1px;
+   margin: 0px;
+}
+
+#blog-nav-recent-posts .j-simple-list li
+{
+    border-bottom: 1px solid lightGray;
+}
+
+#blog-nav-filters .middle .j-box-body strong
+{   
+   padding: 5px 0px 2px 2px;
+}
+
+#blog-nav-filters .middle .j-box-body .j-simple-list
+{
+     padding: 2px 18px 0px 12px;
+     margin: 0px
+}
+#blog-nav-filters .middle .j-box-body .jive-tagcloud-list
+{
+    padding-top: 8px;
+    margin: 0px
+}
+
+.jive-body-content .j-content-extras .jive-sidebar-bloguser 
+{
+      margin-bottom: 14px!important;
+}
+
+/** Commented for New community
+.jive-body-content .j-content-extras .jive-sidebar-bloguser .top , .wrapper-gry-noheader .rounded .top {
+    background: url("../images/gry-top-left-noheading.gif") no-repeat scroll left bottom transparent;
+    padding: 0;
+}
+
+.jive-body-content .j-content-extras .jive-sidebar-bloguser .top .top-right , .wrapper-gry-noheader .rounded .top .middle-right {
+    background: url("../images/gry-top-right-noheading.gif") no-repeat scroll right bottom transparent;
+    height: 5px;
+    margin-left: 7px;
+}
+
+.jive-body-content .j-content-extras .jive-sidebar-bloguser .middle , .wrapper-gry-noheader .rounded .middle {
+    background: url("../images/gry-left.gif") repeat-y scroll left top transparent;
+    clear: both;
+    padding-left: 2px;
+}
+
+.jive-body-content .j-content-extras .jive-sidebar-bloguser .middle .jive-sidebar-body-about , .wrapper-gry-noheader .rounded .middle .middle-right {
+    background: url("../images/gry-right.gif") repeat-y scroll right top transparent;
+    margin-left: 2px;
+}
+
+.jive-body-content .j-content-extras .jive-sidebar-bloguser .bottom , .wrapper-gry-noheader .rounded .bottom {
+    background: url("../images/gry-bottom-left.gif") no-repeat scroll left top transparent;
+}
+
+.jive-body-content .j-content-extras .jive-sidebar-bloguser .bottom .bottom-right ,  .wrapper-gry-noheader .rounded .bottom .middle-right {
+    background: url("../images/gry-bottom-right.gif") no-repeat scroll right top transparent;
+    height: 10px;
+    margin-left: 8px;
+    position: relative;
+}
+*/
+.jive-sidebar-bloguser .jive-sidebar-hdr-blog-page {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 0 5px !important;
+}
+
+.jive-sidebar-bloguser .jive-sidebar-hdr-blog-page .jive-author-avatar {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 46px;
+}
+
+.jive-sidebar-bloguser .jive-sidebar-hdr-blogauthor-name {
+    display: block;
+    margin-left: 47px;
+}
+
+.jive-sidebar-bloguser .jive-sidebar-body-about p
+{
+	padding: 5px 0px 5px 2px;
+}
+
+/** VMware Promo Ads Content Sidebar */
+
+.promo-block
+{
+    
+    margin-bottom: 14px!important;	
+}
+
+/** Subcommunities Macro Sidebar */
+#community-nav-subspace .jive-sidebar-body-subcommunities ul
+{
+	list-style: none;
+}
+#community-nav-subspace .jive-sidebar-body-subcommunities ul li
+{
+        padding: 4px 0px 3px 0px;
+    	border-bottom: 1px solid #CCCCCC;
+
+}
+
+#community-nav-subspace .jive-sidebar-body-subcommunities ul li span.jive-icon-space
+{
+	height: 0px;
+	width: 0px;
+}
+
+
+.j-box-actions .middle .j-icon-list
+{
+     padding-top: 10px!important;
+     padding-left: 4px !important;
+}
+
+/** Profile Page */
+
+.j-view-profile .j-contained-tabs-profile-activity
+{
+   padding-top: 8px !important;
+}
+
+.j-view-profile .j-layout-bio  #jive-profile-photos-block
+{
+   float : right;
+   width: 350px;
+   margin-top : 0px !important;
+}
+.j-view-profile .j-layout-bio .j-box , .j-view-profile .j-layout-bio .jive-box 
+{
+   float: right;  
+   width: 230px !important;
+   padding : 0px !important;
+}
+
+.jive-sidebar-body-about  , .wrapper-gry-noheader , #jive-tags-popularlist .jive-content-list-options , #jive-tags-popularlist #jive-populartags
+{
+    border: 2px solid #DCDCDC;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+/** Profile Inbox */
+
+.jive-body-pm .j-column-wrap-l .j-box
+{
+	background-color: #E9F0F7!important;
+	margin-right: 10px;
+	border: 1px solid #C0D5E9!important;
+}
+
+.jive-body-pm .j-column-wrap-l .j-box table tr td {
+padding : 3px;
+}
+
+.jive-body-pm .j-column-wrap-l .j-box table .jive-table-nomessages
+{
+ height: 84px;
+}
+
+.jive-body-pm .j-column-wrap-l .j-box table th
+{
+	background: url("../images/bg-product-tabs.gif") repeat-x scroll left top transparent;
+	border-bottom: 1px solid #DCDCDC;
+	height: 11px;
+}
+
+.jive-body-pm .j-column-wrap-l .j-box table .jive-pm-folder-total td
+{
+        background: url("../images/bg-product-tabs.gif") repeat-x scroll left top transparent;
+        border-bottom: 1px solid #DCDCDC;
+        height: 11px;
+}
+
+.j-box-privatemsg {
+    font-size: 10px;
+}
+
+.j-box-privatemsg a {
+    font-size: 12px;
+}
+
+.j-box-privatemsg > li {
+    border-bottom: 1px solid #a9a9a9;
+    padding: 4px 2px;
+}
+
+
+.j-box-privatemsg-links {
+    padding-top: 12px;
+	list-style: none;
+}
+
+.j-box-privatemsg-links li
+{
+	padding-top: 3px;
+}
+
+.vm-pm-disabled, #jive-link-privatemsg-disable > a
+{
+color:gray!important;
+cursor: default!important;
+}
+
+.pm-disable-hint
+{
+	font-size: 11px;
+}
+
+/** HTML widget styles Override Jive 4**/ 
+.jive-html-text-widget .table-header 
+{
+	width: 100%!important;
+}
+
+.blu50-top, .blu50-mid, .blu50-btm, .gry50-top, .gry50-mid, .gry50-btm
+{
+	width: 48%!important;
+}
+
+.blu100-top, .blu100-mid, .blu100-btm, .gry100-top, .gry100-mid, .gry100-btm
+{
+   width: 96%!important;
+}
+
+.blu40-top, .blu40-mid, .blu40-btm, .gry40-top, .gry40-mid, .gry40-btm
+{
+	width: 38%!important;
+}
+.blu60-top, .blu60-mid, .blu60-btm, .gry60-top, .gry60-mid, .gry60-btm
+{
+   width: 57%!important;
+}
+.blu33-top, .blu33-mid, .blu33-btm, .gry33-top, .gry33-mid, .gry33-btm
+{
+	width: 32%!important;
+}
+
+
+.gry100-top {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+
+}
+.gry50-top {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+}
+
+
+.gry100-mid {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+
+}
+
+.blu100-mid, .blu50-mid, .blu40-mid, .blu60-mid, .blu33-mid, .gry100-mid, .gry50-mid, .gry40-mid, .gry60-mid, .gry33-mid {
+   padding: 0px 10!important;
+}
+
+.jive-html-text-widget table tr td ul, .jive-html-text-widget table tr td ol
+{
+	padding-left: 24px;
+}
+
+.gry100-btm {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+}
+
+.gry50-mid {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+
+}
+
+.gry50-btm {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+}
+
+.table-header h2 {
+font-size:14px !important;
+font-weight:bold;
+line-height:38px!important;
+margin:0;
+padding:0 0 0 8px!important;
+}
+
+.jive-html-text-widget .gry50-top  ,.jive-html-text-widget  .gry100-top  ,.jive-html-text-widget  .gry40-top  ,.jive-html-text-widget  .gry60-top  ,.jive-html-text-widget  .gry33-top  
+{
+    background-color: #666666;
+    padding-left: 8px!important;
+}
+
+
+.jive-html-text-widget .gry50-top h2  ,.jive-html-text-widget  .gry100-top h2  ,.jive-html-text-widget  .gry40-top h2  ,.jive-html-text-widget  .gry60-top  ,.jive-html-text-widget  .gry33-top h2 
+{
+    
+}
+
+.jive-html-text-widget .blu50-top ,.jive-html-text-widget .blu100-top ,.jive-html-text-widget .blu40-top ,.jive-html-text-widget .blu60-top , .jive-html-text-widget .blu33-top  {
+    background-color: #026A91;
+   padding-left: 8px!important;
+}
+
+
+.jive-html-text-widget .blu50-top  h2,.jive-html-text-widget .blu100-top  h2,.jive-html-text-widget .blu40-top  h2,.jive-html-text-widget .blu60-top  h2, .jive-html-text-widget .blu33-top h2 {
+    
+}
+
+.jive-html-text-widget td.gry33-mid, .jive-html-text-widget td.gry40-mid, .jive-html-text-widget td.gry60-mid,
+   .jive-html-text-widget td.gry100-mid, .jive-html-text-widget td.gry50-mid   {
+     border-right:2px solid #DCDCDC;
+     background: url("../images/gry-left.gif") repeat-y scroll 0 0 #F1F1F1;
+     clear: both;
+    padding:10px;
+    -moz-background-inline-policy: continuous;
+}
+
+
+.jive-html-text-widget td.blu33-mid,  .jive-html-text-widget td.blu60-mid,  .jive-html-text-widget td.blu100-mid,
+  .jive-html-text-widget td.blu50-mid, .jive-html-text-widget td.blu40-mid  {
+    clear: both;
+	padding:10px;
+    -moz-background-inline-policy: continuous;
+    background: url("../images/blu-left.gif") repeat-y scroll 0 0 #E9F0F7;
+	border-right:2px solid #CBD7E3;
+}
+
+
+.jive-html-text-widget td ul, .jive-html-text-widget td table{
+margin:0; padding:0px; 
+margin-top:10px;
+/* float:left;a*/
+}
+.jive-html-text-widget td ul li {padding:2px 0;}
+.jive-html-text-widget td {vertical-align:top;}
+
+
+.jive-html-text-widget td.gry33-btm, .jive-html-text-widget td.gry100-btm, .jive-html-text-widget td.gry50-btm,
+ .jive-html-text-widget td.gry40-btm, .jive-html-text-widget td.gry60-btm
+{
+    border-top:2px solid #DCDCDC;
+	margin-top:2px;    
+}
+
+.jive-html-text-widget td.blu33-btm, .jive-html-text-widget td.blu100-btm,.jive-html-text-widget td.blu50-btm,
+.jive-html-text-widget td.blu60-btm, .jive-html-text-widget td.blu40-btm
+{
+    border-top:2px solid #CBD7E3;
+        margin-top:2px;
+}
+
+
+.gry50-top h2 , .gry100-top h2 , .gry40-top h2 , .gry60-top h2 , .gry33-top  h2
+{
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    line-height: 38px;
+    text-shadow: none !important;
+}
+
+.blu50-top h2 , .blu100-top h2 , .blu40-top h2 , .blu60-top  h2, .blu33-top h2
+{
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    line-height: 38px;
+    text-shadow: none !important;
+}
+
+
+/*
+.community-central  .community-central-heading
+{
+    background: url("../images/blu-top-left.gif") no-repeat scroll left top transparent;
+    padding-left: 8px!important;
+	height: 38px!important;
+	
+}
+
+
+.community-central .community-central-heading h3 
+{
+    background: url("../images/blu-top-right.gif") no-repeat scroll right top;
+    margin-right:-2px;
+	-moz-background-inline-policy: continuous;
+		
+}
+
+.community-central .holder .frame
+{
+    clear: both;
+	padding:10px;
+    -moz-background-inline-policy: continuous;
+    background: url("../images/blu-left.gif") repeat-y scroll 0 0 #E9F0F7;
+	border-right:2px solid #DCDCDC; 
+    border-bottom:2px solid #DCDCDC;	
+
+}
+*/
+
+
+#jive-sidebar-body-activeblogs .jive-icon-list li {
+    padding: 3px 0px;
+}
+
+/* Arrows in Communities Subwidget*/
+#community-nav-1001 .jive-widgetsize-large .jive-icon-space ,  .jive-widgetsize-large #community-nav-1001 .jive-icon-space
+{
+ margin-left: -8px!important;
+}
+
+#jive-taggable-content-container #jive-tags-container-header header
+{
+	background: #dcdcdc;
+	margin: 0px 0px 10px 10px;
+	border-radius: 3px!important;
+	border: 1px solid #bcbcbc;
+}
+#jive-taggable-content-container #jive-tags-container-header header h4
+{
+	color: #333;
+}	
+#jive-taggable-content-container #jive-tags-container-header header a
+{
+background-color: #fff;
+color: #3778c7;
+font-weight: bold;
+}
+#jive-taggable-content-container #jive-tags-container-header header a:hover
+{
+background-color: #fefefe;
+color: #666;
+}
+#jive-taggable-content-container .jive-content-list-sort-contenttype #jive-filter-nav span.jive-icon-med 
+{
+	margin-top:-3px;
+}
+.jive-content-list-options .selected
+{
+color: #666;
+}
+.jive-table-taggables tr.jive-table-row-even td {
+	background-color: #E9F0F7;
+}
+
+.jive-table-taggables table {
+border-top: 1px solid #dcdcdc;
+border-bottom: 1px solid #dcdcdc;
+}
+
+/* Vmware user group Icon changes*/	
+.j-thread-post .j-thread-pointer, .jive-create-thread .j-thread-pointer
+{
+top: 48px;
+}
+.j-td-author .j-status-levels, .j-author-block .j-author-info .j-status-levels {
+        margin-left:5px;
+}
+.j-td-author .vmware-group-icon ,.j-author-block .j-author-info .vmware-group-icon{
+        margin-left:2px;
+}
+.j-thumb section {
+ padding: 5px;
+}
+.jive-body-content-blogs .j-contained-tabs
+{
+	margin: 0px 5px;
+}
+
+.jive-content-blog  .jive-blog-post-subject .j-status-levels ,.jive-content-blog .jive-blog-post-subject-header .j-status-levels, .jive-comment-container .j-status-levels
+{
+display: block;
+position: absolute;
+top: 49px;
+left: 0px;
+width: 46px;
+}
+
+#jive-comments .jive-comment-container .j-status-levels
+{
+position: absolute;
+display: block;
+left: -49px;
+top: 34px;
+width: 35px;
+}
+
+.j-thread-post header .j-status-levels 
+{
+	width: 45px;
+}
+.jive-table-taggables .jive-table-cell-author .j-status-levels
+{
+	display: block;
+	margin-top: 2px;
+}
+
+/* User profile User since change */
+.vm-profile-short-date
+{
+  font-size: 11px;
+  font-weight:bold;
+}
+
+.vm-post-since , .j-post-author .vm-post-since
+{
+    font-style: normal;
+	font-weight: normal;
+	color: #575757;
+}
+
+.j-social-actions .j-people-count {
+color: white;
+padding-top: 2px;
+}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.j-body-act .j-act-container .collapsed ,.j-body-act .j-act-content .collapsed , .j-body-communications #j-inbox-list .collapsed
+{
+    background: none !important;
+    cursor: default !important;
+    padding: 0px 0 0px 0px !important;
+}
+.j-stream .j-bigtab-nav {
+	height: 37px;
+
+}
+.j-inbox-send-dm {
+	top: 12px !important;
+}
+
+#user-reco-content
+{
+border: none!important;
+}
+
+.j-insights .font-color-meta-light {
+    color: #3778C7;
+	text-shadow: none;
+}
+
+.j-insights strong {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.j-body-communications .expanded {
+    background: none!important;
+    cursor: default!important;
+    padding: 0;
+
+}
+.j-body-act .j-stream
+{
+  margin-top: -1px;
+  border-radius: 0px 5px 5px 5px!important;
+}
+.j-act-listfilters li { font-size: 12px; }
+.j-act .j-act-title > nav ,.j-act .j-act-meta , .j-preview-trigger > a span.lnk  , .j-activity-info { font-size: 12px; }
+.j-box .j-recommendations > li header { margin: 6px 0; }
+.j-activity-stream .j-author-act  , .j-act .j-act-grouped ul { font-size:13px; }
+.j-activity-stream .j-excerpt , .j-recommendations > li article{ font-size: 12px; }
+
+

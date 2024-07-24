@@ -1,0 +1,200 @@
+@media (max-width: 1200px) {
+  /* line 3, ../sass/hol-mediaquery.sass */
+  .hol-lab-details, .hol-launch-lab {
+    margin-left: 0px;
+  }
+
+  /* line 5, ../sass/hol-mediaquery.sass */
+  .hol-launch-lab {
+    padding-top: 37px;
+  }
+  /* line 7, ../sass/hol-mediaquery.sass */
+  .hol-launch-lab .glyphicon {
+    display: none;
+  }
+
+  /* line 9, ../sass/hol-mediaquery.sass */
+  .hol-lab-details .glyphicon-th-list {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  /* line 13, ../sass/hol-mediaquery.sass */
+  .hol-box-title h1 {
+    font-size: 16px;
+  }
+
+  /* line 15, ../sass/hol-mediaquery.sass */
+  .hol-box-2, .hol-box-3, .hol-box-4 {
+    height: 330px;
+  }
+
+  /* line 17, ../sass/hol-mediaquery.sass */
+  .hol-labs-icon {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 22, ../sass/hol-mediaquery.sass */
+  .hol-social-links {
+    clear: both;
+  }
+
+  /* line 25, ../sass/hol-mediaquery.sass */
+  .hol-box-2, .hol-box-3, .hol-box-4 {
+    height: 300px;
+  }
+
+  /* line 27, ../sass/hol-mediaquery.sass */
+  #footer {
+    padding-bottom: 250px;
+  }
+
+  /* line 30, ../sass/hol-mediaquery.sass */
+  #footer .category-links {
+    padding: 20px 0;
+  }
+
+  /* line 33, ../sass/hol-mediaquery.sass */
+  #footer .a-row {
+    float: left !important;
+    clear: both !important;
+    width: 100% !important;
+  }
+
+  /* line 38, ../sass/hol-mediaquery.sass */
+  #footer .a-row > div {
+    width: 50% !important;
+    border: none !important;
+  }
+
+  /* line 42, ../sass/hol-mediaquery.sass */
+  #footer .a-row > div > div {
+    border: none !important;
+  }
+
+  /* line 45, ../sass/hol-mediaquery.sass */
+  #footer .a-row a {
+    font-size: 12px !important;
+  }
+
+  /* line 48, ../sass/hol-mediaquery.sass */
+  .asset-container {
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  /* line 52, ../sass/hol-mediaquery.sass */
+  .asset-container > img {
+    width: 150px;
+  }
+
+  /* line 55, ../sass/hol-mediaquery.sass */
+  .asset-suffix {
+    font-size: 16px !important;
+    margin-top: 3px;
+  }
+
+  /* line 59, ../sass/hol-mediaquery.sass */
+  .footerbar {
+    padding: 5px 0px !important;
+  }
+
+  /* line 62, ../sass/hol-mediaquery.sass */
+  .b-bd-linklist-footer-l .h-5 {
+    padding-bottom: 0px;
+    padding-top: 15px;
+  }
+
+  /* line 66, ../sass/hol-mediaquery.sass */
+  .hol-box {
+    margin-top: 15px;
+  }
+
+  /* line 69, ../sass/hol-mediaquery.sass */
+  #j-search {
+    padding-left: 15px;
+  }
+
+  /* line 72, ../sass/hol-mediaquery.sass */
+  #carousel-hero {
+    height: 500px;
+  }
+  /* line 74, ../sass/hol-mediaquery.sass */
+  #carousel-hero .carousel-caption {
+    padding: 0;
+  }
+
+  /* line 76, ../sass/hol-mediaquery.sass */
+  .hol-carousel-image {
+    height: 500px;
+  }
+
+  /* line 78, ../sass/hol-mediaquery.sass */
+  .hol-row-2 {
+    margin-top: 0px;
+  }
+
+  /* line 81, ../sass/hol-mediaquery.sass */
+  .hol-row-3 {
+    margin-top: 15px;
+  }
+
+  /* line 85, ../sass/hol-mediaquery.sass */
+  #carousel-labs {
+    height: 600px;
+  }
+  /* line 87, ../sass/hol-mediaquery.sass */
+  #carousel-labs .item {
+    height: auto;
+  }
+  /* line 89, ../sass/hol-mediaquery.sass */
+  #carousel-labs .content {
+    max-height: 200px;
+    overflow: hidden;
+    border: none !important;
+  }
+  /* line 93, ../sass/hol-mediaquery.sass */
+  #carousel-labs .action {
+    background-color: black;
+    padding-top: 20px !important;
+    margin-left: 50px;
+  }
+
+  /* line 98, ../sass/hol-mediaquery.sass */
+  .hol-labs-icon {
+    display: none;
+  }
+
+  /* line 101, ../sass/hol-mediaquery.sass */
+  .carousel-item-message {
+    max-width: 100%;
+  }
+
+  /* line 104, ../sass/hol-mediaquery.sass */
+  .icon-container {
+    height: 60px;
+    width: 60px;
+  }
+
+  /* line 108, ../sass/hol-mediaquery.sass */
+  .hol-box-3 .icon-container {
+    height: 40px;
+  }
+}
+@media (max-width: 400px) {
+  /* line 112, ../sass/hol-mediaquery.sass */
+  #carousel-hero {
+    height: 550px;
+  }
+  /* line 114, ../sass/hol-mediaquery.sass */
+  #carousel-hero .carousel-caption {
+    padding: 0;
+  }
+
+  /* line 116, ../sass/hol-mediaquery.sass */
+  .hol-carousel-image {
+    height: 550px;
+  }
+}

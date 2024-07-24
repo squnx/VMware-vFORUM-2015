@@ -1,0 +1,832 @@
+@import compass/layout/stretching
+@import compass/utilities
+@import compass/reset
+@import compass/css3
+@import compass
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: normal
+    font-weight: 100
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-ThinWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-ThinWeb.woff") format("woff")
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: italic
+    font-weight: 100
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-ThinItWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-ThinItWeb.woff") format("woff")
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: normal
+    font-weight: 300
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-LightWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-LightWeb.woff") format("woff")
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: italic
+    font-weight: 300
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-LightItWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-LightItWeb.woff") format("woff")
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: normal
+    font-weight: normal
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-RegWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-RegWeb.woff") format("woff")
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: italic
+    font-weight: normal
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-RegItWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-RegItWeb.woff") format("woff")
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: normal
+    font-weight: 600
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-SboldWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-SboldWeb.woff") format("woff")
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: italic
+    font-weight: 600
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-SboldItWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-SboldItWeb.woff") format("woff")
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: normal
+    font-weight: 700
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-BoldWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-BoldWeb.woff") format("woff")
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: italic
+    font-weight: 700
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-BoldItWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-BoldItWeb.woff") format("woff")
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: normal
+    font-weight: 800
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-XboldWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-XboldWeb.woff") format("woff")
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: italic
+    font-weight: 800
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-XboldItWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-XboldItWeb.woff") format("woff")
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: normal
+    font-weight: 900
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-BlackWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-BlackWeb.woff") format("woff")
+
+@font-face
+    font-family: "proxima-nova"
+    font-style: italic
+    font-weight: 900
+    src: url("/themes/hol-overview-v10/styles/fonts/ProximaNova-BlackItWeb.eot-iefix") format("eot"), url("/themes/hol-overview-v10/styles/fonts/ProximaNova-BlackItWeb.woff") format("woff")
+
+
+@-webkit-viewport
+    width: device-width
+@-moz-viewport
+    width: device-width
+@-ms-viewport
+    width: device-width
+@-o-viewport
+    width: device-width
+@viewport
+    width: device-width
+
+
+.start-discussion-in
+    display: none !important
+    
+body
+    background:
+        color: #6A6B6F !important
+        image: none !important
+    min-width: 100px !important
+    font-size: 14px
+    
+html
+    overflow-x: hidden
+    font-family: "proxima-nova", arial !important
+    
+body > .page-b-header-gradient, body > .page-b-footer-gradient, body > .page-b-footer-pattern
+    display: none !important
+    
+
+.footer-pattern-container
+    position: absolute
+    bottom: -25px
+    height: 234px
+    position: absolute
+    right: -25px
+    width: 398px
+
+.page-footer-pattern
+    background-image: url("../../../images/page-b-background.jpg")
+    background-repeat: no-repeat
+    bottom: 0px
+    height: 234px
+    position: absolute
+    right: 0
+    width: 398px
+
+.page-header-gradient
+    background-image: url("/themes/hol-overview-v10/images/header-gradient.png")
+    background-repeat: repeat
+    height: 706px
+    left: 0
+    position: absolute
+    top: 0
+    width: 100%
+
+
+#j-footer
+    height: auto !important
+    min-height: 200px
+    position: relative
+
+#j-header, #j-header-wrap
+    background: rgb(0,0,0)
+    background: transparent\9
+    background: rgba(0,0,0,0)
+    background-color: rgba(0,0,0,0)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0000000,endColorstr=#0000000)
+    zoom: 1
+
+#j-header:nth-child(n), #j-header-wrap:nth-child(n)
+    filter: none
+
+.page-b-header-gradient
+    top: 0
+
+.header-topLink, #commnav
+    color: #FFFFFF !important
+    float: right
+    position: static
+    top: 0 !important
+
+.category-links
+    background: rgb(0,0,0)
+    background: transparent\9
+    background: rgba(0,0,0,0)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0000000,endColorstr=#0000000)
+    zoom: 1
+
+.category-links:nth-child(n)
+    filter: none
+
+#footer .category-links .b-pd-main
+    background: rgb(0,0,0)
+    background: transparent\9
+    background: rgba(0,0,0,0)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0000000,endColorstr=#0000000)
+    zoom: 1
+
+#footer .category-links .b-pd-main:nth-child(n)
+    filter: none
+
+.page-b-footer-pattern
+    z-index: 1000
+
+#footer-background
+    background-color: #323235
+    bottom: -25px
+    left: -20px
+    position: absolute
+    right: -20px
+    top: 0
+
+.linklist-footer li a
+    text-decoration: none !important
+    color: #9C9C9C
+
+.b-bd-linklist-footer-l .h-5
+    color: #FFFFFF
+
+.footerbar
+    border: none
+    height: auto !important
+    margin: 0px important
+    padding: 30px 0 30px 0
+    text-align: left
+
+.footerbar > ul, .footerbar > p
+    clear: both
+    float: left
+    margin: 0px !important
+    padding: 5px !important
+
+.footerbar > p
+    margin-left: 7px !important
+
+.b-bd-linklist-footer-l 
+    border-color: #3F4043 !important
+
+#commnav > #j-satNav
+    margin-top: -3px
+    top: 0
+
+#glink
+    border-bottom-color: #383838
+    border-bottom-style: solid
+    border-bottom-width: 1px
+    position: static
+
+#j-satNav li a, .header-topLink
+    color: #FFFFFF !important
+    margin-top: 1px
+
+#j-search
+    float: right
+    margin-right: 0 !important
+    position: static
+    padding-left: 5px
+
+#j-search .j-ui-elem
+    background-image: none !important
+
+#j-search form 
+    background-color: transparent
+    +border-radius(3px)
+    padding: 10px 5px
+    border: 1px solid gray
+    overflow: hidden
+    position: relative
+
+#j-search input
+    color: lightgray !important
+
+
+#j-header-wrap
+    padding-bottom: 20px
+
+.j-page-header
+    display: none
+
+.j-bigtab-nav
+    height: 38px
+
+.j-bigtab-nav .j-tabbar
+    border: none !important
+    height: 32px
+    
+.j-bigtab-nav .j-tabbar li
+    display: none
+
+.j-bigtab-nav .j-tabbar #jive-place-link-manage-tab
+    background-color: #FFFFFF !important
+    background-image: none !important
+    display: block
+    padding-right: 10px !important
+    z-index: 1000
+
+.j-bigtab-nav .j-tabbar #jive-place-link-manage-tab #jive-place-link-manage
+    background-image: none !important
+    background: rgb(0,0,0) !important
+    background: transparent\9 !important
+    background: rgba(0,0,0,0) !important
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0000000,endColorstr=#0000000)
+    zoom: 1
+    margin-top: -2px !important
+
+.j-bigtab-nav .j-tabbar #jive-place-link-manage-tab #jive-place-link-manage:nth-child(n)
+    filter: none
+
+.j-contained
+    border: none !important
+
+.footerbar
+    margin-top: 20px !important
+    padding-bottom: 5px !important
+    padding-left: 45px !important
+    padding-right: 45px !important
+    padding-top: 5px !important
+
+.asset-container
+    display: table
+    padding: 0 15px
+
+.hol-main-asset
+    padding-top: 5px
+
+.asset-container > .asset-suffix
+    color: #C7C9C9
+    font-size: 22px
+    padding-bottom: 5px
+    padding-left: 10px
+    padding-right: 10px
+    padding-top: 6px
+
+.asset-container > img, .asset-container > .asset-suffix
+    float: left
+
+#j-search #j-spotlight-wrap
+    display: block
+    height: auto
+    position: static
+    width: auto
+
+.asset-row
+    margin: 20px -25px 0 -25px
+
+#j-search input
+    display: block
+    font-size: 14px !important
+    padding-bottom: 5px !important
+    padding-left: 10px !important
+    padding-right: 10px !important
+    padding-top: 5px !important
+    width: 100%
+    margin-left: 30px
+
+.search-icon
+    position: absolute
+    top: 12px
+    left: 12px
+    font-size: 20px
+    color: lightgray
+
+#j-search-left, #j-search-right
+    display: none !important
+
+.hol-row-1, .hol-row-2, .hol-row-3
+    position: relative
+    margin-left: -30px
+    margin-right: -30px
+
+.hol-row-1
+    margin-top: 20px
+
+.hol-row-2, .hol-row-3
+    margin-top: 30px
+
+#hero-carousel
+    height: 400px
+
+.popover
+    display: block
+
+#jive-breadcrumb
+    display: none
+
+.j-layout
+    border: none !important
+
+#carousel-hero
+    height: 400px
+    padding: 0px
+    overflow: hidden
+    position: relative
+
+.carousel-control.right .glyphicon
+    right: 0px
+    font-size: 20px
+    color: white
+    padding: 15px 5px 15px 10px
+    width: auto
+    height: auto
+
+.carousel-control.left .glyphicon
+    left: 0px
+    font-size: 20px
+    color: white
+    padding: 15px 10px 15px 5px
+    width: auto
+    height: auto
+    margin-left: 0px
+
+.carousel-control.left .glyphicon, .carousel-control.right .glyphicon
+    background: rgb(0,0,0)
+    background: transparent\9
+    background: rgba(0,0,0,.9)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e5000000,endColorstr=#e5000000)
+    zoom: 1
+
+.carousel-control.left .glyphicon:nth-child(n), .carousel-control.right .glyphicon:nth-child(n)
+    filter: none
+
+
+.carousel-indicators
+    bottom: 0px
+
+.carousel-caption
+    bottom: auto
+    left: 0px
+    padding: 20px
+    top: 0px
+    width: 100%
+
+#carousel-hero .carousel-caption
+    position: absolute !important
+    left: 20px
+    right: 20px
+    width: auto !important
+    
+
+.carousel-item-header
+    color: white
+    font-size: 30px
+    margin-bottom: 0
+    margin-left: 10px
+    margin-right: 10px
+    margin-top: 10px
+    max-width: 95%
+    padding-bottom: 15px
+    padding-left: 0px
+    padding-right: 20px
+    padding-top: 15px
+    position: relative
+    text-align: left
+    font-weight: 600
+
+.carousel-item-message
+    color: white
+    font-size: 17px
+    line-height: 120%
+    margin-bottom: 0
+    margin-left: 10px
+    margin-right: 0
+    margin-top: 0
+    max-width: 60%
+    padding-bottom: 20px
+    padding-left: 0px
+    padding-right: 20px
+    padding-top: 10px
+    text-align: left
+    font-weight: 600
+
+.carousel-item-link
+    color: white !important
+    display: table
+    font-weight: bold
+    left: 0
+    margin-left: 10px
+    padding-bottom: 20px
+    padding-left: 0px
+    padding-right: 20px
+    padding-top: 10px
+    text-align: left
+    font-weight: 600
+
+.carousel-mask
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-position: left bottom
+    background-size: cover
+    background-repeat: no-repeat
+    background-image: url("/themes/hol-overview-v10/images/vmw-overlay.png")
+    -ms-behavior: url(/themes/hol-overview-v10/scripts/backgroundsize.min.htc)
+.hol-crest
+    position: absolute
+    bottom: 0px
+    left: 0px
+    width: 130px
+    height: 130px
+    background-image: url("/themes/hol-overview-v10/images/hol-crest.png")
+    -ms-behavior: url(/themes/hol-overview-v10/scripts/backgroundsize.min.htc)
+.hol-box
+    height: 400px
+
+.hol-box-1
+    background-color: lightgray
+
+.hol-box-2, .hol-box-3, .hol-box-4
+    background-color: white
+    background-position: top left
+    background-size: cover
+    -ms-behavior: url(/themes/hol-overview-v10/scripts/backgroundsize.min.htc)
+    height: 300px
+
+.hol-box-5
+    background-color: transparent
+
+.hol-box-2
+    background-image: url("/themes/hol-overview-v10/images/labs-background.jpg")
+
+.hol-box-3
+    background-image: url("/themes/hol-overview-v10/images/docs-background.jpg")
+
+.hol-box-4
+    background-image: url("/themes/hol-overview-v10/images/community-background.jpg")
+
+.hol-box-header
+    position: relative
+    width: 100%
+    height: 10px
+
+.header-blue
+    background-color: #0096d3
+
+.header-yellow
+    background-color: #c2cd23
+    
+.header-green
+    background-color: #6db33f
+    
+.product-video-cover
+    position: relative
+    width: 100%
+    height: 250px
+    border-bottom: 5px solid #545454
+    background-position: center center
+    background-size: cover
+    background-image: url("/themes/hol-overview-v10/images/product-video.jpg")
+    -ms-behavior: url(/themes/hol-overview-v10/scripts/backgroundsize.min.htc)
+
+.hol-link
+    font-size: 16px
+    color: black
+    margin: 20px
+    margin-top: 35px
+    margin-bottom: 20px
+    padding-left: 35px
+    padding-top: 3px
+    min-height: 22px
+    text-decoration: none !important
+    background-repeat: no-repeat
+    background-image: url("/themes/hol-overview-v10/images/large-angle-icon-dark-blue.png")
+
+.hol-link-faq
+    margin-top: 10px
+    background-image: url("/themes/hol-overview-v10/images/large-angle-icon-green.jpg")
+
+.hol-link > .glyphicon
+    color: #AEB0AE
+    font-size: 11px
+    padding-left: 5px
+
+.hol-box-icon
+    display: block
+    padding: 20px
+    height: 150px
+
+.icon-container
+    height: 70px
+    width: 70px
+    background-repeat: no-repeat
+    background-image: url("/themes/hol-overview-v10/images/cloud.png")
+    background-size: contain
+    background-position: center top
+    -ms-behavior: url(/themes/hol-overview-v10/scripts/backgroundsize.min.htc)
+    float: left
+    margin-top: 10px
+
+.hol-box-3 .icon-container
+    height: 50px
+    background-image: url("/themes/hol-overview-v10/images/book.png")
+
+.hol-box-4 .icon-container
+    background-image: url("/themes/hol-overview-v10/images/chat.png")
+
+.hol-box-info
+    position: absolute
+    left: 15px
+    right: 15px
+    bottom: 0
+    top: 90px
+    background: rgb(255,255,255)
+    background: transparent\9
+    background: rgba(255,255,255,0.6)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF,endColorstr=#99FFFFFF)
+    zoom: 1
+
+.hol-box-info:nth-child(n)
+    filter: none
+
+.hol-box-3 .hol-box-info
+    border-bottom-color: #CFCC51
+
+.hol-box-4 .hol-box-info
+    border-bottom-color: #50A840
+
+.hol-box-title
+    padding: 0px 20px
+    display: table
+    margin: 0 auto
+    margin-top: 5px
+
+.hol-box-title h1
+    text-decoration: none !important
+    font-size: 20px
+    color: black
+    text-shadow: 1px 1px 1px lightgray
+    text-align: left
+    font-weight: bold
+    margin-bottom: 0px
+    padding-top: 23px
+    margin-left: 15px
+    float: left
+    
+.hol-box-subtitle
+    font-size: 16px
+    color: black
+    padding: 20px 30px
+    line-height: 130%
+    text-align: left
+
+.j-layout.hol-inactive
+    display: none
+
+#j-main.hol-inactive
+    min-height: 0px
+    padding-bottom: 0px
+
+.timeline
+    border-radius: 0px !important
+
+#carousel-labs
+    position: relative
+    background-color: black
+    height: 400px
+    overflow: hidden
+
+.hol-labs-icon
+    margin: 0 auto
+    margin-left: 15px
+    width: 100px
+    height: 100px
+    background-repeat: no-repeat
+    background-size: cover
+    -ms-behavior: url(/themes/hol-overview-v10/scripts/backgroundsize.min.htc)
+    
+.hol-carousel-image
+    background-repeat: no-repeat
+    background-size: cover
+    -ms-behavior: url(/themes/hol-overview-v10/scripts/backgroundsize.min.htc)
+    width: 100%
+    height: 400px
+
+.hol-carousel-image-fullheight
+    visibility: visible
+    height: 100%
+
+.hol-carousel-image-fullwidth
+    visibility: visible
+    width: 100%
+
+#carousel-labs .carousel-control
+    background-image: none
+
+.hol-box-info > ul
+    padding-left: 45px
+
+.hol-action-button
+    background-color: #0096d3
+    background-image: url("/themes/hol-overview-v10/images/rounded-arrow-horizontal.png")
+    background-position: 15px center
+    background-repeat: no-repeat
+    background-size: 30px 30px
+    -ms-behavior: url(/themes/hol-overview-v10/scripts/backgroundsize.min.htc)
+    color: white
+    padding: 20px
+    padding-left: 85px
+    border-radius: 5px
+    box-shadow: 3px 3px 3px rgba(0,0,0,.1)
+    position: absolute
+    left: 50%
+    margin-left: -113px
+    width: 226px
+    border: 2px solid white
+    font:
+        size: 18px
+        weight: bold
+
+
+.hol-action-button:hover
+    background-color: darken(#0096d3,15%)
+
+.hol-box-3 .hol-action-button
+    background-color: #c2cd23
+
+.hol-box-3 .hol-action-button:hover
+    background-color: darken(#c2cd23,15%)
+
+.hol-box-4 .hol-action-button
+    background-color: #6db33f
+    padding-left: 75px
+
+.hol-box-4 .hol-action-button:hover
+    background-color: darken(#6db33f,15%)
+
+.hol-featured-banner
+    position: absolute
+    left: 0
+    top: 0
+    width: 100px
+    height: 100px
+    background-image: url('/themes/hol-overview-v10/images/featured-corner.png')
+    background-size: contain
+    background-repeat: no-repeat
+    -ms-behavior: url(/themes/hol-overview-v10/scripts/backgroundsize.min.htc)
+
+.hol-social-links
+    float: right
+    display: inline-block
+    margin: -4px 20px 0px 0px
+
+.hol-social-link
+    width: 30px
+    height: 30px
+    background-size: contain
+    background-repeat: no-repeat
+    -ms-behavior: url(/themes/hol-overview-v10/scripts/backgroundsize.min.htc)
+    margin-left: 5px
+    margin-top: -5px
+
+.hol-social-link.twitter-link
+    background-image: url('/themes/hol-overview-v10/images/glyphicons_twitter_normal@2x.png')
+
+.hol-social-link.facebook-link
+    background-image: url('/themes/hol-overview-v10/images/glyphicons_facebook_normal@2x.png')
+
+.hol-social-link.youtube-link
+    background-image: url('/themes/hol-overview-v10/images/glyphicons_youtube_normal@2x.png')
+
+.hol-social-link.twitter-link:hover
+    background-image: url('/themes/hol-overview-v10/images/glyphicons_twitter@2x.png')
+
+.hol-social-link.facebook-link:hover
+    background-image: url('/themes/hol-overview-v10/images/glyphicons_facebook@2x.png')
+
+.hol-social-link.youtube-link:hover
+    background-image: url('/themes/hol-overview-v10/images/glyphicons_youtube@2x.png')
+
+
+#carousel-labs .bottom-mask
+    background-color: black
+    position: absolute
+    bottom: 0
+    width: 100%
+    height: 40px
+
+
+#carousel-labs .item
+    padding: 40px 50px
+    height: 400px
+    overflow: hidden
+
+#carousel-labs .hol-carousel-title
+    font-size: 30px
+    color: #0096D3
+    
+#carousel-labs .carousel-caption
+    padding: 20px 0px
+    position: static
+    text-align: left
+    color: white
+
+#carousel-labs .carousel-caption p
+    padding-bottom: 20px
+    color: white
+
+#carousel-labs .carousel-caption .content
+    border-right: 1px solid #454444
+
+.hol-launch-lab
+    font-size: 18px
+    text-shadow: none !important
+    color: white
+    text-decoration: none !important
+    padding: 40px 17px 60px 17px
+    margin-left: 35px
+    display: inline-block
+    background-image: url('/themes/hol-overview-v10/images/lab-launch-background.png')
+    background-size: contain
+    background-repeat: no-repeat
+    -ms-behavior: url(/themes/hol-overview-v10/scripts/backgroundsize.min.htc)
+    margin-top: 20px
+
+.hol-launch-lab:hover
+    text-decoration: none !important
+    background-image: url('/themes/hol-overview-v10/images/lab-launch-background-hover.png')
+
+.hol-launch-lab .glyphicon-cloud-upload
+    font-size: 35px
+    top: 10px
+    margin-right: 3px
+    color: white
+
+.hol-lab-details
+    text-decoration: none !important
+    padding: 20px 12px
+    margin-left: 55px
+    color: white
+
+.hol-lab-details .glyphicon-th-list
+    margin-right: 5px
+
+.hol-lab-details .glyphicon-chevron-right
+    margin-left: 5px
+
+
+
+
